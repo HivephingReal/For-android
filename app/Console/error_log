@@ -1,0 +1,2 @@
+[11-Jan-2019 10:55:43 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hivephingg/public_html/android/app/Console/Kernel.php on line 8
+[13-Jan-2019 16:23:13 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Console\Kernel' not found in /home/hivephingg/public_html/android/app/Console/Kernel.php on line 8

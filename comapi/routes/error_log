@@ -1,0 +1,20 @@
+[09-Jan-2019 13:45:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home/hivephingg/public_html/android/comapi/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/routes/console.php on line 16
+[09-Jan-2019 16:05:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/hivephingg/public_html/android/comapi/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/routes/channels.php on line 14
+[09-Jan-2019 16:10:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/hivephingg/public_html/android/comapi/routes/web.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/routes/web.php on line 14
+[10-Jan-2019 04:29:09 UTC] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home/hivephingg/public_html/android/comapi/routes/api.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/routes/api.php on line 17
+[10-Jan-2019 10:05:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home/hivephingg/public_html/android/comapi/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/routes/channels.php on line 14

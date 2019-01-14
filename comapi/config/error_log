@@ -1,0 +1,48 @@
+[09-Jan-2019 13:15:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/database.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/database.php on line 16
+[09-Jan-2019 13:20:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/mail.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/mail.php on line 19
+[09-Jan-2019 13:29:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/services.php on line 18
+[09-Jan-2019 13:32:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/queue.php on line 18
+[09-Jan-2019 13:41:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/broadcasting.php on line 18
+[09-Jan-2019 15:59:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/session.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/session.php on line 19
+[09-Jan-2019 18:38:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/cache.php on line 18
+[09-Jan-2019 18:38:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/jwt.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/jwt.php on line 28
+[09-Jan-2019 18:42:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_path() in /home/hivephingg/public_html/android/comapi/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/view.php on line 17
+[10-Jan-2019 04:42:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/app.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/app.php on line 28
+[10-Jan-2019 06:39:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/hivephingg/public_html/android/comapi/config/filesystems.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/filesystems.php on line 48
+[10-Jan-2019 11:27:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/hivephingg/public_html/android/comapi/config/fcm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/hivephingg/public_html/android/comapi/config/fcm.php on line 4

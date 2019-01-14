@@ -1,0 +1,1 @@
+[12-Jan-2019 00:24:11 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Exceptions\Handler' not found in /home/hivephingg/public_html/android/app/Exceptions/Handler.php on line 9

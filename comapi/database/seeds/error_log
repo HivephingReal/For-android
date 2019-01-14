@@ -1,0 +1,1 @@
+[11-Jan-2019 12:56:28 UTC] PHP Fatal error:  Class 'Illuminate\Database\Seeder' not found in /home/hivephingg/public_html/android/comapi/database/seeds/DatabaseSeeder.php on line 5

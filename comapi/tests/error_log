@@ -1,0 +1,1 @@
+[07-Jan-2019 10:52:05 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/hivephingg/public_html/android/comapi/tests/TestCase.php on line 7

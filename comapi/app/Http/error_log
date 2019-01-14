@@ -1,0 +1,1 @@
+[09-Jan-2019 18:41:30 UTC] PHP Fatal error:  Class 'Illuminate\Foundation\Http\Kernel' not found in /home/hivephingg/public_html/android/comapi/app/Http/Kernel.php on line 7

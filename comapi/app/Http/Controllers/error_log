@@ -1,0 +1,12 @@
+[09-Jan-2019 13:39:09 UTC] PHP Fatal error:  Class 'Illuminate\Routing\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/Controller.php on line 10
+[09-Jan-2019 18:46:25 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/EntroapiController.php on line 15
+[09-Jan-2019 20:55:00 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/TestController.php on line 7
+[09-Jan-2019 22:34:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/FirebaseController.php on line 10
+[09-Jan-2019 22:34:50 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/PortfolioController.php on line 14
+[09-Jan-2019 22:37:08 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/ProfileController.php on line 13
+[10-Jan-2019 03:06:58 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/TendersFrontController.php on line 14
+[10-Jan-2019 04:44:31 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/PlanfrontController.php on line 14
+[10-Jan-2019 08:39:38 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/FirebasehelperController.php on line 14
+[10-Jan-2019 08:41:34 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/RegisterApiController.php on line 7
+[10-Jan-2019 16:41:50 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/HomeController.php on line 7
+[11-Jan-2019 15:04:08 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/hivephingg/public_html/android/comapi/app/Http/Controllers/RegisterforcomuserapiController.php on line 14
