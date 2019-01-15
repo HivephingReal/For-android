@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use App\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+
 use Tymon\JWTAuth\Facades\JWTAuth;
 use Validator;
 
@@ -28,6 +30,14 @@ class ProfileController extends Controller
             return redirect('inves_profile/profile_detail/'.JWTAuth::user()->id);
         }
         $profile = User::where('id', JWTAuth::user()->id)->first();
+        $com=DB::table('company')->where('user_id',JWTAuth::user()->id)->first();
+        $point = DB::table('company_with_plan')->where('com_id',$com->id);
+        if($point->count() == 0){
+            $pp=0;
+        }else{
+            $pp =$point->first()->remaining_point;
+        }
+        $profile->point=$pp;
 
         return response()->json(['user_profile'=>$profile]);
 

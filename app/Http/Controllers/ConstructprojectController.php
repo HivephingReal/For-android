@@ -66,7 +66,7 @@ class ConstructprojectController extends Controller
 
 //        $data = DB::connection('mysql_service')->table('for_repair')->where([['city', '=', $con_com_data->city_id], ['close', 0], ['confirm', '=', 'confirmed']])->whereIn('fr_type',$fr);
         // under function is temp function
-        $data = DB::connection('mysql_service')->table('for_repair')->where([['city', '=', $con_com_data->city_id],['confirm', '=', 'confirmed']])->whereIn('fr_type',$fr)->orderBy('id','desc')->limit(20);
+        $data = DB::connection('mysql_service')->table('for_repair')->where([['city', '=', $con_com_data->city_id],['confirm', '=', 'confirmed']])->whereIn('fr_type',$fr)->orderBy('id','asc')->limit(50);
 
 //        $limit_q=DB::table('user_saw_this_plan')->where('project_id',$data->id)->count();
 //        $user_saw_this=DB::table('user_saw_this_plan')->where([['project_id','=',$data->id],['user_id',JWTAuth::user()->id]])->count();
