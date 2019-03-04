@@ -23,26 +23,25 @@ class ProfileController extends Controller
         $this->middleware('NeedToRegister', ['except' => ['company_register_form_first', 'copy_photo_from_api', 'company_register_form_second', 'company_register_form_third']]);
         // $this->middleware('Plans',['except'=>['company_detail','index','company_register_form','company_register_form_two','copy_photo_from_api','company_register_form_three','company_register','company_edit_form','company_edit']]);
     }
+
     public function index()
     {
 
-        if(Auth::user()->type == 2){
-            return redirect('inves_profile/profile_detail/'.JWTAuth::user()->id);
+        if (Auth::user()->type == 2) {
+            return redirect('inves_profile/profile_detail/' . JWTAuth::user()->id);
         }
         $profile = User::where('id', JWTAuth::user()->id)->first();
-        $com=DB::table('company')->where('user_id',JWTAuth::user()->id)->first();
-        $point = DB::table('company_with_plan')->where('com_id',$com->id);
-        if($point->count() == 0){
-            $pp=0;
-        }else{
-            $pp =$point->first()->remaining_point;
+        $com = DB::table('company')->where('user_id', JWTAuth::user()->id)->first();
+        $point = DB::table('company_with_plan')->where('com_id', $com->id);
+        if ($point->count() == 0) {
+            $pp = 0;
+        } else {
+            $pp = $point->first()->remaining_point;
         }
-        $profile->point=$pp;
 
-        return response()->json(['user_profile'=>$profile]);
+        return response()->json(['user_profile' => $profile, 'points' => $pp]);
 
     }
-
 
 
     public function inves_index($id)
@@ -50,8 +49,8 @@ class ProfileController extends Controller
         if ($id != Auth::user()->id) {
             return "error";
         };
-        if(Auth::user()->type == 1){
-            return redirect('entra/profile_detail/'.Auth::user()->id);
+        if (Auth::user()->type == 1) {
+            return redirect('entra/profile_detail/' . Auth::user()->id);
         }
         $profile = User::where('id', Auth::user()->id)->first();
 
@@ -80,10 +79,8 @@ class ProfileController extends Controller
 
         $data->save();
 
-        return response()->json(['status'=>'updated']);
+        return response()->json(['status' => 'updated']);
     }
-
-
 
     public function inves_update($id, Request $request)
     {

@@ -19,6 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 Route::post('/register','RegisterforcomuserapiController@register');
 Route::post('/login','Auth\LoginController@login');
+Route::get('/confrimed','ConstructprojectController@get_confirmed_projects');
 
 
 Route::post('/dashboard','EntroapiController@index');
@@ -42,10 +43,6 @@ Route::post('profile_detail', 'ProfileController@index');
 Route::post('profile_detail/{id}', 'ProfileController@update');
 Route::post('changepassword/{id}', 'ChangepasswordController@change');
 //end entro profile
-
-
-
-
 
 Route::get('portfolio/add', 'PortfolioController@add');
 Route::post('portfolio/add', 'PortfolioController@add_data');

@@ -147,7 +147,9 @@ class EntroapiController extends Controller
 
         if (!empty($request->file('logo'))) {
             $request->file('logo')->move(base_path() . '/public/users/entro/photo', Carbon::now()->timestamp . $request->file('logo')->getClientOriginalName());
-
+            if($request->file('logo')->getClientOriginalName() != 'jpg' and $request->file('logo')->getClientOriginalName() != 'png'){
+                return 'error';
+            }
             $logoname = Carbon::now()->timestamp . $request->file('logo')->getClientOriginalName();
             $input = $request->except('_token');
             $input['logo'] = $logoname;
@@ -280,8 +282,8 @@ class EntroapiController extends Controller
             }
         }
     }
-        
-        
+
+
        public function check_server(){
            if($_GET['token'] != ''){
          $user = JWTAuth::parseToken()->check();
@@ -305,12 +307,12 @@ class EntroapiController extends Controller
 
     }
 
-            
-            
-            
-            
-            
-        
-        
+
+
+
+
+
+
+
 
 }
